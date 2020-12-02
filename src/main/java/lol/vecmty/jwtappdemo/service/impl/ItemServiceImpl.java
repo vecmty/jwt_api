@@ -12,12 +12,10 @@ import java.util.List;
 @Service
 public class ItemServiceImpl implements ItemService {
 
-    private final BCryptPasswordEncoder passwordEncoder;
     private final ItemRepository itemRepository;
 
     @Autowired
-    public ItemServiceImpl(BCryptPasswordEncoder passwordEncoder, ItemRepository itemRepository) {
-        this.passwordEncoder = passwordEncoder;
+    public ItemServiceImpl(ItemRepository itemRepository) {
         this.itemRepository = itemRepository;
     }
 
