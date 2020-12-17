@@ -1,4 +1,4 @@
-package lol.vecmty.jwtappdemo.rest;
+package lol.vecmty.jwtappdemo.controller;
 
 import lol.vecmty.jwtappdemo.dto.AuthenticationRequestDto;
 import lol.vecmty.jwtappdemo.model.User;
